@@ -84,6 +84,14 @@ dependencies {
     implementation(libs.bundles.room)
     ksp(libs.room.compiler)
 
+    // Retrofit & Networking
+    implementation(libs.retrofit)
+    implementation(libs.converter.gson)
+
+    // OkHttp & Logging
+    implementation(libs.okhttp)
+    implementation(libs.logging.interceptor)
+
     // Firebase
     implementation(platform(libs.firebase.bom))
     implementation(libs.firebase.analytics)

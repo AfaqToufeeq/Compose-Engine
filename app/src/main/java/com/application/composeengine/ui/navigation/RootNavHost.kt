@@ -39,7 +39,7 @@ fun RootNavHost(
         // --- MAIN CONTAINER (Explore, History, etc.) ---
         composable<Route.MainContainer> {
             // This screen typically contains the BottomBar/Sheet and a sub-NavHost
-            MainContainerScreen(
+        /*    MainContainerScreen(
                 onNavigateToChat = { query ->
                     navController.navigate(Route.ChatSession(initialQuery = query))
                 },
@@ -50,7 +50,7 @@ fun RootNavHost(
                         quickPrompt = quickPrompt
                     ))
                 }
-            )
+            )*/
         }
 
         // =====================

@@ -1,3 +1,4 @@
+/*
 package com.application.composeengine.ui.navigation
 
 import androidx.compose.material3.*
@@ -9,11 +10,13 @@ import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 
+*/
 /**
  * MainContainer: Shell of the app
  * - Holds Bottom Navigation
  * - Switches between bottom tabs
- */
+ *//*
+
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun MainContainer(navController: NavHostController) {
@@ -49,4 +52,4 @@ fun MainContainer(navController: NavHostController) {
     ) { padding ->
         BottomNavGraph(navController, Modifier.padding(padding))
     }
-}
+}*/

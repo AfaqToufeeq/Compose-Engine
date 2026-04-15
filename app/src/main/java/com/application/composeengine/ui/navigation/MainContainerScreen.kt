@@ -1,3 +1,4 @@
+/*
 package com.application.composeengine.ui.navigation
 
 import androidx.compose.foundation.layout.padding
@@ -19,6 +20,7 @@ import com.application.composeengine.ui.features.history.HistoryRoute
 import com.application.composeengine.ui.features.assistants.AssistantsRoute
 import com.application.composeengine.ui.navigation.Route
 
+*/
 /**
  * MainContainerScreen
  *
@@ -27,7 +29,8 @@ import com.application.composeengine.ui.navigation.Route
  *
  * @param onNavigateToChat Navigate to a ChatSession with optional query
  * @param onNavigateToAssistant Navigate to an AssistantTool screen
- */
+ *//*
+
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun MainContainerScreen(
@@ -56,6 +59,7 @@ fun MainContainerScreen(
     }
 }
 
+*/
 /**
  * BottomNavBar
  *
@@ -63,7 +67,8 @@ fun MainContainerScreen(
  * - Selected state
  * - SingleTop navigation
  * - State restoration
- */
+ *//*
+
 @Composable
 fun BottomNavBar(
     navController: NavHostController,
@@ -85,19 +90,23 @@ fun BottomNavBar(
                         }
                     }
                 },
-                icon = { /* TODO: Provide Icon for each tab */ },
+                icon = { */
+/* TODO: Provide Icon for each tab *//*
+ },
                 label = { Text(tab::class.simpleName!!) }
             )
         }
     }
 }
 
+*/
 /**
  * MainNavHost
  *
  * Nested NavHost inside MainContainer.
  * Handles all **tab-specific screens** and **dynamic feature navigation**.
- */
+ *//*
+
 @Composable
 fun MainNavHost(
     navController: NavHostController,
@@ -183,4 +192,4 @@ fun MainNavHost(
             )
         }
     }
-}
+}*/

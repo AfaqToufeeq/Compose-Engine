@@ -2,7 +2,7 @@
 # Tooling & Core
 agp = "9.0.1"
 converterGson = "3.0.0"
-kotlin = "2.3.10"
+kotlin = "2.3.20"
 ksp = "2.3.4"
 coreKtx = "1.18.0-rc01"
 biometricKtx = "1.2.0-alpha05"
